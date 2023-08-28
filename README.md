@@ -1,8 +1,16 @@
 # README
 
+## Pull the Docker Image
+
+Pull image from remote Docker repository
+``docker pull magnitus375/fetch-interview``
+
 ## Create the Docker Image
 Create the executable Spring Boot jar  
 ``gradle :bootJar``
+
+For windows
+``.\gradlew :booJar``
 
 
 Create docker image  
